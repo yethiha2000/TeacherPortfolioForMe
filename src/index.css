@@ -1,0 +1,12 @@
+/* Tailwind v4 အတွက် အသစ်ပြောင်းလဲသွားတဲ့ Import စနစ် */
+@import "tailwindcss";
+
+/* အဖြူနဲ့ အစိမ်း Border လည်မယ့် Custom Animation */
+@keyframes spin-slow {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.animate-spin-slow {
+  animation: spin-slow 6s linear infinite;
+}
